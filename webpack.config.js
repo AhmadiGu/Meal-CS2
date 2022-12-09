@@ -9,6 +9,9 @@ const stylesHandler = 'style-loader';
 
 const config = {
   entry: './src/index.js',
+  experiments: {
+    topLevelAwait: true,
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
   },

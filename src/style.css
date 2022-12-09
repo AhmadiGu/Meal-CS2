@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display&family=Poppins:wght@200;300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+}
+
+.logo img {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+}
+
+.logo p {
+  color: salmon;
+  font-size: 50px;
+  text-transform: capitalize;
+  font-family: 'Waterfall', cursive;
+  font-weight: 900;
+}
+
+.menu {
+  display: flex;
+  background: white;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 5px 5px 5px lightsalmon;
+  margin-bottom: 30px;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100%;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.links ul li a {
+  color: rgb(78, 77, 77);
+  font-size: 20px;
+}
+
+.links ul li.itemCount {
+  padding: 4px 2px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px lightsalmon;
+}
+
+.container {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.static-manu {
+  background: white;
+  width: 90px;
+  height: 100vh;
+  position: fixed;
+  margin-top: -90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px lightsalmon;
+}
+
+.static-manu li {
+  margin-top: 5px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.static-manu img {
+  width: 60px;
+  height: 60px;
+}
+
+.meal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px lightsalmon, -2px -2px 2px lightsalmon;
+}
+
+.img-of-meal {
+  background-color: white;
+}
+
+.meal-title-name {
+  font-size: 15px;
+  color: rgb(51, 50, 50);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.meal-title {
+  text-align: center;
+}
+
+.comment-display {
+  float: right;
+  margin: 2px 40px;
+}
+
+.comment-display span {
+  font-size: 16px;
+  color: rgb(78, 77, 77);
+  margin-top: 2px;
+}
+
+.comment-display button:hover {
+  font-size: 18px;
+  background: rgb(236, 196, 180);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.comment-Button {
+  font-size: 20px;
+  color: rgb(185, 182, 181);
+  margin-right: 5px;
+}
+
+.static-manu a span {
+  color: salmon;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: 'Waterfall', cursive;
+  font-weight: 900;
+}
+
+.likes-display {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin: 2px 50px;
+}
+
+.love-icon {
+  font-size: 20px;
+  color: lightsalmon;
+  margin-right: 5px;
+}
+
+.like-counter {
+  width: 20px;
+}
+
+.love-icon:hover {
+  font-size: 18px;
+  background: rgb(211, 203, 201);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.likes-display p {
+  font-size: 16px;
+  color: rgb(78, 77, 77);
+  margin-top: 2px;
+}
+
+.footer {
+  background: white;
+  height: 40px;
+  border-top: 1px solid lightsalmon;
+  margin-top: 40px;
+}
+
+.footer p {
+  text-align: end;
+  margin: 5px 100px;
+  margin-bottom: 15px;
+  color: rgb(61, 60, 60);
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Waterfall', cursive;
+  font-weight: 900;
+}
